@@ -5,11 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/assets/fredy_crm/frontend/ && yarn copy-html-entry",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "copy-html-entry": "cp ../fredy_crm/public/frontend/index.html ../fredy_crm/www/frontend.html"
   },
   "dependencies": {
+    "frappe-react-sdk": "^1.11.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
