@@ -9,7 +9,15 @@
     "dev": "cd frontend && yarn dev",
     "build": "cd frontend && yarn build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Furansujin/fredy_crm.git"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Furansujin/fredy_crm/issues"
+  },
+  "homepage": "https://github.com/Furansujin/fredy_crm#readme"
 }
